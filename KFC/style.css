@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    margin-bottom: 20px;
+}
+
+.class{
+    display: flex;
+    flex-direction: column;
+}
+
+.introduce{
+    color: white;
+    background-color: brown;
+    font-size: 20px;
+}
+
+li::before{
+    content: "•";
+    color:white;
+}
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    border-style: double ;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+    border-style: double;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 5px;
+}
